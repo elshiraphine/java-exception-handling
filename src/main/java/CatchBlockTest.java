@@ -14,7 +14,7 @@ public class CatchBlockTest {
             double result = div.divide(a, b);
             System.out.println(result);
         } catch (ArithmeticException e) {
-            //e.printStackTrace();
+            e.printStackTrace();
             System.out.println("Tidak dapat membagi dengan nol");
         }
     }
