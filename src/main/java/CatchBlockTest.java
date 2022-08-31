@@ -16,8 +16,6 @@ public class CatchBlockTest {
         } catch (ArithmeticException e) {
             //e.printStackTrace();
             System.out.println("Tidak dapat membagi dengan nol");
-        } catch (Exception e) {
-            System.out.println(e);
         }
     }
 }
